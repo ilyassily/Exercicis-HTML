@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Botas y Zapatillas de Fútbol | Premium</title>
+  <link rel="stylesheet" href="bambas.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+  <!-- Header y navegación -->
+  <header>
+    <div class="container">
+      <nav class="navbar">
+        <a href="#" class="logo">
+          <img src="logo2.png" alt="Logo Botas" class="logo-img">
+        </a>
+        <ul class="nav-links">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="nav-icons">
+          <a href="#"><i class="fas fa-search"></i></a>
+          <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <a href="#"><i class="fas fa-user"></i></a>
+          <div class="menu-toggle"><i class="fas fa-bars"></i></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section id="inicio" class="hero">
+    <div class="container hero-content">
+      <h1>Encuentra tu calzado ideal</h1>
+      <p>Botas y zapatillas de fútbol para todos los terrenos y niveles</p>
+      <a href="#productos" class="btn">Ver Productos <i class="fas fa-arrow-right"></i></a>
+    </div>
+  </section>
+
+  <!-- Carrusel -->
+  <section class="carousel-section">
+    <input type="radio" name="slides" id="slide1" checked>
+    <input type="radio" name="slides" id="slide2">
+    <input type="radio" name="slides" id="slide3">
+
+    <div class="slides">
+      <div class="slide"><img src="carousel1.jpg" alt="Slide 1"></div>
+      <div class="slide"><img src="carousel2.jpg" alt="Slide 2"></div>
+      <div class="slide"><img src="bambas multitaco.jpg" alt="Slide 3"></div>
+    </div>
+
+    <div class="controls">
+      <label for="slide1" class="prev">&#10094;</label>
+      <label for="slide2" class="prev">&#10094;</label>
+      <label for="slide3" class="prev">&#10094;</label>
+      <label for="slide1" class="next">&#10095;</label>
+      <label for="slide2" class="next">&#10095;</label>
+      <label for="slide3" class="next">&#10095;</label>
+    </div>
+  </section>
+
+  <!-- Productos -->
+  <section id="productos">
+    <div class="container">
+      <div class="section-title">
+        <h2>Productos Destacados</h2>
+      </div>
+      <div class="products-grid">
+        <div class="product-card">
+          <div class="product-image">
+            <img src="botas para cesped.jpg" alt="Botas Césped Natural">
+            <div class="product-badge">Nuevo</div>
+          </div>
+          <div class="product-info">
+            <h3>Botas Césped Natural</h3>
+            <p>Máximo agarre y control para juego profesional.</p>
+            <div class="product-price">
+              <span class="price">€89.99</span>
+              <a href="#" class="btn btn-secondary">Añadir al carro</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="bambas artificial.jpg" alt="Botas Césped Artificial">
+            <div class="product-badge">Popular</div>
+          </div>
+          <div class="product-info">
+            <h3>Botas Césped Artificial</h3>
+            <p>Estabilidad y durabilidad para campos sintéticos.</p>
+            <div class="product-price">
+              <span class="price">€79.99</span>
+              <a href="#" class="btn btn-secondary">Añadir al carro</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="bambas indoor.jpg" alt="Zapatillas Indoor">
+          </div>
+          <div class="product-info">
+            <h3>Zapatillas Indoor</h3>
+            <p>Perfectas para fútbol sala y entrenamiento interior.</p>
+            <div class="product-price">
+              <span class="price">€69.99</span>
+              <a href="#" class="btn btn-secondary">Añadir al carro</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-image">
+            <img src="bambas multitaco.jpg" alt="Botas Multitaco">
+            <div class="product-badge">Oferta</div>
+          </div>
+          <div class="product-info">
+            <h3>Botas Multitaco</h3>
+            <p>Versátiles para diferentes superficies.</p>
+            <div class="product-price">
+              <span class="price">€94.99</span>
+              <a href="#" class="btn btn-secondary">Añadir al carro</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios">
+    <div class="container features">
+      <div class="section-title">
+        <h2>Servicios</h2>
+      </div>
+      <div class="features-grid">
+        <div class="feature-card">
+          <i class="fas fa-truck feature-icon"></i>
+          <h3>Envío rápido</h3>
+          <p>Recibe tus productos en 24-48 horas.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-headset feature-icon"></i>
+          <h3>Atención al cliente</h3>
+          <p>Soporte 24/7 para resolver todas tus dudas.</p>
+        </div>
+        <div class="feature-card">
+          <i class="fas fa-undo feature-icon"></i>
+          <h3>Devolución gratuita</h3>
+          <p>Devoluciones fáciles en los primeros 30 días.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto">
+    <div class="container contact-block">
+      <div class="contact-left">
+        <h2>Contáctanos</h2>
+        <p>Email: <strong>inscastellet@bambasfutbol.com</strong></p>
+        <p>Dirección: Ins Castellet, Sant Vicenç de Castellet</p>
+        <div class="social-links">
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <h3>Nuestra ubicación</h3>
+        <iframe src="https://maps.google.com/maps?q=41.67192,1.86427&z=15&output=embed" width="100%" height="280" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <p>© 2025 Botas y Zapatillas de Fútbol — Ins Castellet</p>
+    </div>
+  </footer>
+
+</body>
+</html>
